@@ -64,7 +64,7 @@ class SentimentAnalyzer:
         classifier_model_object = config['classifier'][constants.USE_CLASSIFIER]
         utils.classify_data(log, model=classifier_model_object, input_vector=input_vector, write_output=True,
                             output_location=constants.OUTPUT_OF_PREDICTION, classifier_name=constants.USE_CLASSIFIER)
-        log.info("Predication complete!!!")
+        log.info("Prediction complete!!!")
 
 
 if __name__ == "__main__":
