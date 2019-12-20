@@ -39,8 +39,8 @@ LOGISTIC_REGRESSION = "LogisticRegression"
 # -------------------------------------------------------------------------
 # Classifier being used in our engine
 # -------------------------------------------------------------------------
-USE_CLASSIFIER = LINEAR_SVC#LOGISTIC_REGRESSION  # Allowed values for supported classifiers: []
-DEFAULT_CLASSIFIER = LINEAR_SVC#LOGISTIC_REGRESSION
+USE_CLASSIFIER = LINEAR_SVC  # Allowed values for supported classifiers: [LOGISTIC_REGRESSION, LINEAR_SVC]
+DEFAULT_CLASSIFIER = LOGISTIC_REGRESSION
 
 
 # -------------------------------------------------------------------------
