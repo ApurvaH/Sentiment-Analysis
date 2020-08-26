@@ -3,11 +3,6 @@
 import re
 from nltk.corpus import stopwords
 
-# Contains list of all the constants used by entire program
-
-import re
-from nltk.corpus import stopwords
-
 
 # -------------------------------------------------------------------------
 # File Parameters
